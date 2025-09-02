@@ -10,11 +10,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.blankcomposecanvas"
+    namespace = "com.jonathannakhla.blankcomposecanvas"
     compileSdk = libs.versions.compileSdk.get().toInt()
 
     defaultConfig {
-        applicationId = "com.example.blankcomposecanvas"
+        applicationId = "com.jonathannakhla.blankcomposecanvas"
         minSdk = libs.versions.minSdk.get().toInt()
         targetSdk = libs.versions.targetSdk.get().toInt()
         versionCode = 1

@@ -1,4 +1,4 @@
-package com.example.blankcomposecanvas
+package com.jonathannakhla.blankcomposecanvas
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -11,7 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.example.blankcomposecanvas.ui.theme.BlankComposeCanvasTheme
+import com.jonathannakhla.blankcomposecanvas.ui.theme.BlankComposeCanvasTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

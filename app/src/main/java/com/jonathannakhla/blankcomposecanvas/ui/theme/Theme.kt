@@ -1,4 +1,4 @@
-package com.example.blankcomposecanvas.ui.theme
+package com.jonathannakhla.blankcomposecanvas.ui.theme
 
 import android.app.Activity
 import android.os.Build
