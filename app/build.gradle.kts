@@ -64,6 +64,11 @@ dependencies {
     implementation(libs.retrofit)
     implementation(libs.kotlinx.serialization.json)
 
+    implementation(libs.androidx.room.runtime)
+    ksp(libs.androidx.room.compiler)
+    implementation(libs.androidx.room.ktx)
+    implementation(libs.androidx.room.testing)
+
     testImplementation(libs.junit)
 
     androidTestImplementation(libs.androidx.junit)
