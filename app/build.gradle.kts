@@ -33,8 +33,8 @@ android {
         }
     }
     compileOptions {
-        // targetCompatibility not needed as it defaults to match sourceCompatibility
         sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
     buildFeatures {
         compose = true
