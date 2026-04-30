@@ -83,6 +83,7 @@ dependencies {
 
     // Unit testing
     testImplementation(libs.junit)
+    testImplementation(libs.truth)
     testImplementation(libs.mockk)
     testImplementation(libs.kotlinx.coroutines.test)
     testImplementation(libs.turbine)
