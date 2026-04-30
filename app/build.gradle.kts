@@ -65,6 +65,7 @@ dependencies {
     implementation(libs.kotlinx.coroutines.android)
 
     // Hilt for dependency injection
+    implementation(libs.androidx.hilt.navigation.compose)
     implementation(libs.hilt)
     ksp(libs.hilt.compiler)
 
